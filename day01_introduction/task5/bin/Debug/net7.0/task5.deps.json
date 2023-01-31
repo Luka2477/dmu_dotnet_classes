@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "task5/1.0.0": {
+        "dependencies": {
+          "task5_lib": "1.0.0"
+        },
+        "runtime": {
+          "task5.dll": {}
+        }
+      },
+      "task5_lib/1.0.0": {
+        "runtime": {
+          "task5_lib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "task5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "task5_lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
