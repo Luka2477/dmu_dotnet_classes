@@ -1,0 +1,15 @@
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day01_introduction/task7/bin/Debug/net7.0/task7
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day01_introduction/task7/bin/Debug/net7.0/task7.deps.json
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day01_introduction/task7/bin/Debug/net7.0/task7.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day01_introduction/task7/bin/Debug/net7.0/task7.dll
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day01_introduction/task7/bin/Debug/net7.0/task7.pdb
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day01_introduction/task7/obj/Debug/net7.0/task7.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day01_introduction/task7/obj/Debug/net7.0/task7.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day01_introduction/task7/obj/Debug/net7.0/task7.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day01_introduction/task7/obj/Debug/net7.0/task7.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day01_introduction/task7/obj/Debug/net7.0/task7.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day01_introduction/task7/obj/Debug/net7.0/task7.dll
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day01_introduction/task7/obj/Debug/net7.0/refint/task7.dll
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day01_introduction/task7/obj/Debug/net7.0/task7.pdb
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day01_introduction/task7/obj/Debug/net7.0/task7.genruntimeconfig.cache
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day01_introduction/task7/obj/Debug/net7.0/ref/task7.dll
