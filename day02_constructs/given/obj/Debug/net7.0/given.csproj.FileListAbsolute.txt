@@ -1,0 +1,15 @@
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day02_constructs/given/obj/Debug/net7.0/given.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day02_constructs/given/obj/Debug/net7.0/given.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day02_constructs/given/obj/Debug/net7.0/given.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day02_constructs/given/obj/Debug/net7.0/given.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day02_constructs/given/obj/Debug/net7.0/given.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day02_constructs/given/bin/Debug/net7.0/given
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day02_constructs/given/bin/Debug/net7.0/given.deps.json
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day02_constructs/given/bin/Debug/net7.0/given.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day02_constructs/given/bin/Debug/net7.0/given.dll
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day02_constructs/given/bin/Debug/net7.0/given.pdb
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day02_constructs/given/obj/Debug/net7.0/given.dll
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day02_constructs/given/obj/Debug/net7.0/refint/given.dll
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day02_constructs/given/obj/Debug/net7.0/given.pdb
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day02_constructs/given/obj/Debug/net7.0/given.genruntimeconfig.cache
+/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day02_constructs/given/obj/Debug/net7.0/ref/given.dll
