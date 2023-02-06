@@ -1,4 +1,5 @@
 ﻿<Properties StartupConfiguration="{2C80D2DC-20EE-4FFB-A566-D0DF0BAE141B}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.task0 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.task0 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.task1 FirstBuild="True" />
 </Properties>
