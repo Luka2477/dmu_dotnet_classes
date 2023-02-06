@@ -1,8 +1,9 @@
-﻿<Properties StartupConfiguration="{FF7E9875-9D1A-4607-9B1A-8FD560FBF72A}|Default">
+﻿<Properties StartupConfiguration="{1B43F5CA-35F4-407D-B19D-6C77A8F77C1D}|Default">
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.task0 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.task3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.task6 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.task1 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.task5 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.task5 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.task4 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
