@@ -7,7 +7,6 @@
 
 		public Shape() : this(1, 1)
 		{
-
 		}
 
 		public Shape(double x, double y) => (X, Y) = (x, y);
