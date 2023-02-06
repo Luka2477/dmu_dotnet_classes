@@ -1,6 +1,6 @@
 ﻿namespace task0
 {
-	public class Shape
+	public abstract class Shape
 	{
 		public double X;
 		public double Y;
@@ -12,9 +12,11 @@
 
 		public Shape(double x, double y) => (X, Y) = (x, y);
 
-        public override string ToString()
+		public abstract double Area();
+
+		public override string ToString()
         {
-			return $"X={X}, Y={Y}";
+			return $"Area={Area()}, X={X}, Y={Y}";
         }
     }
 }

@@ -6,9 +6,14 @@
 
 		public Circle(double radius) : base() => Radius = radius;
 
+        public override double Area()
+        {
+            return Radius * Radius * Math.PI;
+        }
+
         public override string ToString()
         {
-            return $"Circle : {base.ToString()}, Radius={Radius}";
+            return $"Circle : Radius={Radius}, {base.ToString()}";
         }
     }
 }
