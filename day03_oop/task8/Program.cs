@@ -17,6 +17,10 @@ class Program
         time.Sec += 45;
         Console.WriteLine(time);
         Console.WriteLine(time.SecondsSinceMidnight());
+
+        time = new("12:30:11");
+        Console.WriteLine(time);
+        Console.WriteLine(time.SecondsSinceMidnight());
     }
 }
 
