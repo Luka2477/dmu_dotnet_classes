@@ -5,7 +5,6 @@ class Program
     {
         List<Employee> employees = new()
         {
-            new Employee("Lukas", "abc 123"),
             new Mechanic("Mads", "abc 124", 2012, 300),
             new Inspector("Lasse", "abc 125", 2015, 275),
             new Foreman("Morten", "abc 126", 2009, 350, 2017, 15000),
