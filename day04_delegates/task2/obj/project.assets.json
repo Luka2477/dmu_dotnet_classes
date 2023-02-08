@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day04_delegates/task2/task2.csproj",
+      "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day04_delegates/task2/task2.csproj",
       "projectName": "task2",
-      "projectPath": "/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day04_delegates/task2/task2.csproj",
+      "projectPath": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day04_delegates/task2/task2.csproj",
       "packagesPath": "/Users/lukasknudsen/.nuget/packages/",
-      "outputPath": "/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day04_delegates/task2/obj/",
+      "outputPath": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day04_delegates/task2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lukasknudsen/.nuget/NuGet/NuGet.Config"

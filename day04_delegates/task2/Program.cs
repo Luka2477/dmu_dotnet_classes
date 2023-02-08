@@ -11,7 +11,7 @@ class Program
 		while (true)
 		{
 			pp.HeatUp();
-		
+
 			Thread.Sleep(1000);
 		}
 	}
