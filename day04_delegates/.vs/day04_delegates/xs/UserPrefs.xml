@@ -1,9 +1,10 @@
-﻿<Properties StartupConfiguration="{6BFC6D9B-85EE-4BDF-B495-52EDACF1C8A3}|Default">
+﻿<Properties StartupConfiguration="{C6F8A19B-11D0-44AC-8147-DCFD9D7C5DEB}|Default">
+  <MonoDevelop.Ide.ItemProperties.task6 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.task1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.task4 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.task3 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.task5 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.task5 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.task2 FirstBuild="True" />
@@ -11,7 +12,12 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="day04_delegates" expanded="True" />
+          <Node name="day04_delegates" expanded="True">
+            <Node name="task4" expanded="True" />
+            <Node name="task5" expanded="True">
+              <Node name="Util.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
