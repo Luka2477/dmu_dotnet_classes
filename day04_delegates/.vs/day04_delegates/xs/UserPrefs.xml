@@ -1,5 +1,18 @@
 ﻿<Properties StartupConfiguration="{23871B24-478A-4A81-8514-97D4394A0656}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.task2 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.task1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.task3 FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.task2 FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="day04_delegates" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
 </Properties>
