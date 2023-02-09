@@ -13,9 +13,9 @@
 			}
 			set
 			{
-                int temp = _secondsSinceMidnight % 3_600;
-                _secondsSinceMidnight = (temp + value * 3_600) % _maxSeconds;
-            }
+				int temp = _secondsSinceMidnight % 3_600;
+				_secondsSinceMidnight = (temp + value * 3_600) % _maxSeconds;
+			}
 		}
 
 		public int Min
@@ -29,7 +29,7 @@
 				int temp = _secondsSinceMidnight % 60;
 				_secondsSinceMidnight = (temp + value * 60 + Hour * 3_600) % _maxSeconds;
 
-            }
+			}
 		}
 
 		public int Sec
@@ -54,10 +54,10 @@
 
 		public int SecondsSinceMidnight() => _secondsSinceMidnight;
 
-        public override string ToString()
-        {
-			return $"{Hour, 2:D2}:{Min, 2:D2}:{Sec, 2:D2}";
-        }
-    }
+		public override string ToString()
+		{
+			return $"{Hour,2:D2}:{Min,2:D2}:{Sec,2:D2}";
+		}
+	}
 }
 

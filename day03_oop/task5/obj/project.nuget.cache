@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b3StcbMC+K/4gMN1KVzn/O066vF9It5+PTaBMVJiBYiVmzX7ewfV1/3uv9e7gRImVKoiTm95ppPJ3SwGRCTR2g==",
+  "dgSpecHash": "h7fF1rpJ1gcxEO4h0IcJRAZK2cXgPZOZB6RFX8qDCm4AhIs9SD2DaG+vwrhdRa6Hc4+33o7PO9MC8KlUYoNC1w==",
   "success": true,
-  "projectFilePath": "/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day03_oop/task5/task5.csproj",
+  "projectFilePath": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day03_oop/task5/task5.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

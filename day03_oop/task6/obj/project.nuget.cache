@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zI+hF1LmjKr1or01f6LQ+tTLjPzrpWWobLCy/UC05tGMcjYkC0NVrrSJ47cbbNNW7cOP9pdmtJLIxV2Jcbr/8w==",
+  "dgSpecHash": "5HZKnYNaI/o8y5bzgGjnQhH40AXAJWkrgubStV2ixhMrd+uJdOJ8FOmKP890tnO64gVvZHMp1kDwDXWDPMehug==",
   "success": true,
-  "projectFilePath": "/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day03_oop/task6/task6.csproj",
+  "projectFilePath": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day03_oop/task6/task6.csproj",
   "expectedPackageFiles": [
     "/Users/lukasknudsen/.nuget/packages/microsoft.extensions.configuration/5.0.0/microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "/Users/lukasknudsen/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

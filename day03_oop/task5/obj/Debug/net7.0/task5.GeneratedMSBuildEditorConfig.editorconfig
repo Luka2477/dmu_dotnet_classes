@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = task5
-build_property.ProjectDir = /Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day03_oop/task5/
+build_property.ProjectDir = /Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day03_oop/task5/

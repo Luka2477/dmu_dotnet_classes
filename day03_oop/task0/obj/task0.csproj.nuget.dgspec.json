@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day03_oop/task0/task0.csproj": {}
+    "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day03_oop/task0/task0.csproj": {}
   },
   "projects": {
-    "/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day03_oop/task0/task0.csproj": {
+    "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day03_oop/task0/task0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day03_oop/task0/task0.csproj",
+        "projectUniqueName": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day03_oop/task0/task0.csproj",
         "projectName": "task0",
-        "projectPath": "/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day03_oop/task0/task0.csproj",
+        "projectPath": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day03_oop/task0/task0.csproj",
         "packagesPath": "/Users/lukasknudsen/.nuget/packages/",
-        "outputPath": "/Users/lukasknudsen/Documents/dmu/net/dmu_net_classes/day03_oop/task0/obj/",
+        "outputPath": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day03_oop/task0/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lukasknudsen/.nuget/NuGet/NuGet.Config"
