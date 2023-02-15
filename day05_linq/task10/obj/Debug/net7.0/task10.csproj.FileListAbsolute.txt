@@ -1,0 +1,15 @@
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day05_linq/task10/bin/Debug/net7.0/task10
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day05_linq/task10/bin/Debug/net7.0/task10.deps.json
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day05_linq/task10/bin/Debug/net7.0/task10.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day05_linq/task10/bin/Debug/net7.0/task10.dll
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day05_linq/task10/bin/Debug/net7.0/task10.pdb
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day05_linq/task10/obj/Debug/net7.0/task10.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day05_linq/task10/obj/Debug/net7.0/task10.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day05_linq/task10/obj/Debug/net7.0/task10.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day05_linq/task10/obj/Debug/net7.0/task10.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day05_linq/task10/obj/Debug/net7.0/task10.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day05_linq/task10/obj/Debug/net7.0/task10.dll
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day05_linq/task10/obj/Debug/net7.0/refint/task10.dll
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day05_linq/task10/obj/Debug/net7.0/task10.pdb
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day05_linq/task10/obj/Debug/net7.0/task10.genruntimeconfig.cache
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day05_linq/task10/obj/Debug/net7.0/ref/task10.dll
