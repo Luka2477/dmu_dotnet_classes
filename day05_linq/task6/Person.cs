@@ -1,5 +1,5 @@
 ﻿using System;
-namespace task4
+namespace task6
 {
 	public class Person
 	{

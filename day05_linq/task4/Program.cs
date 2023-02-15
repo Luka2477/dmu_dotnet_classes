@@ -2,7 +2,7 @@
 using static System.Formats.Asn1.AsnWriter;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace task3;
+namespace task4;
 class Program
 {
 	static void Main(string[] args)
