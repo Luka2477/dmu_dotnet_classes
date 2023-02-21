@@ -11,7 +11,7 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         
-        <Button Grid.Column="0" Name="ButtonHello" Foreground="Green" IsVisible="False">Hello</Button>
-        <CheckBox Grid.Column="1" Name="CheckBoxHello" Click="CheckBox_Clicked">Show Button</CheckBox>
+        <Button Grid.Column="0" Name="ButtonHello" Foreground="Green">Hello</Button>
+        <CheckBox Grid.Column="1" Name="CheckBoxHello">Show Button</CheckBox>
     </Grid>
 </Window>

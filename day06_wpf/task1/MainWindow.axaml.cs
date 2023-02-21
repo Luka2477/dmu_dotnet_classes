@@ -11,9 +11,4 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
-
-    private void CheckBox_Clicked(object? sender, RoutedEventArgs e)
-    {
-        ButtonHello.IsVisible = CheckBoxHello.IsChecked ?? false;
-    }
 }
