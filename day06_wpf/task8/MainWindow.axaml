@@ -1,0 +1,36 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="task8.MainWindow"
+        Title="task8">
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Grid.Row="0" Grid.Column="0">
+            <RadioButton Checked="RadioButton_Checked">North</RadioButton>
+            <RadioButton Checked="RadioButton_Checked">East</RadioButton>
+            <RadioButton Checked="RadioButton_Checked">South</RadioButton>
+            <RadioButton Checked="RadioButton_Checked">West</RadioButton>
+        </StackPanel>
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <CheckBox Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">Lemon</CheckBox>
+            <CheckBox Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">Orange</CheckBox>
+            <CheckBox Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">Apple</CheckBox>
+            <CheckBox Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">Banana</CheckBox>
+        </StackPanel>
+        <Label Grid.Row="1" Grid.Column="0">Status radio buttons</Label>
+        <Label Grid.Row="1" Grid.Column="1">Status checkboxes</Label>
+        <Label Grid.Row="2" Grid.Column="0" Name="LabelRadioButtons"></Label>
+        <Label Grid.Row="2" Grid.Column="1" Name="LabelCheckBoxes"></Label>
+    </Grid>
+</Window>
