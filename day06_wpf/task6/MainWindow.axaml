@@ -10,6 +10,6 @@
         <Button DockPanel.Dock="Top" Click="DockButton_OnClick" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center">Top</Button>
         <Button DockPanel.Dock="Right" Click="DockButton_OnClick" VerticalAlignment="Stretch" VerticalContentAlignment="Center">Right</Button>
         <Button DockPanel.Dock="Bottom" Click="DockButton_OnClick" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center">Bottom</Button>
-        <TextBox Name="TextBoxCenter"></TextBox>
+        <TextBox Name="TextBoxCenter" HorizontalContentAlignment="Center"></TextBox>
     </DockPanel>
 </Window>
