@@ -1,0 +1,45 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="task9.MainWindow"
+        Title="task9">
+    <Grid ShowGridLines="True" RowDefinitions="45,60,*,60,30" ColumnDefinitions="*,60,*">
+        <TextBox Grid.Row="0" Grid.Column="0" Name="TbLeft" VerticalContentAlignment="Center"></TextBox>
+        <TextBox Grid.Row="0" Grid.Column="2" Name="TbRight" VerticalContentAlignment="Center"></TextBox>
+
+        <Button Grid.Row="1" Grid.Column="0" Click="AddLeft_OnClick">Add</Button>
+        <Button Grid.Row="1" Grid.Column="2" Click="AddRight_OnClick">Add</Button>
+
+        <ListBox Grid.Row="2" Grid.Column="0" Items="{Binding $parent[Window].DataContext.LeftItems}" SelectionMode="Multiple">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border CornerRadius="4" Padding="4">
+                        <TextBlock Text="{Binding}"/>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <StackPanel Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center">
+            <Button Click="TransferRight_OnClick">==></Button>
+            <Button Click="TransferLeft_OnClick">&lt;==</Button>
+        </StackPanel>
+        <ListBox Grid.Row="2" Grid.Column="2" Items="{Binding RightItems}" SelectionMode="Multiple">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border CornerRadius="4" Padding="4">
+                        <TextBlock Text="{Binding}"/>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Button Grid.Row="3" Grid.Column="0" Click="ClearLeft_OnClick">Clear</Button>
+        <Button Grid.Row="3" Grid.Column="2" Click="ClearRight_OnClick">Clear</Button>
+
+        <TextBlock Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Height="30" Background="#fff0d9">
+            Some text
+        </TextBlock>
+    </Grid>
+</Window>
