@@ -1,0 +1,27 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="task5.MainWindow"
+        Title="task5">
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Button Grid.Row="0" Grid.Column="1" Name="ButtonTop" HorizontalAlignment="Center" Click="ButtonTop_OnClick">Exchange top</Button>
+        <Button Grid.Row="1" Grid.Column="1" Name="ButtonBottom" HorizontalAlignment="Center" Click="ButtonBottom_OnClick">Exchange bottom</Button>
+        
+        <Label Grid.Row="0" Grid.Column="0" Name="LabelTopLeft" HorizontalAlignment="Center" VerticalAlignment="Center">Batman</Label>
+        <Label Grid.Row="0" Grid.Column="2" Name="LabelTopRight" HorizontalAlignment="Center" VerticalAlignment="Center">Robin</Label>
+        <Label Grid.Row="1" Grid.Column="0" Name="LabelBottomLeft" HorizontalAlignment="Center" VerticalAlignment="Center">Hulk</Label>
+        <Label Grid.Row="1" Grid.Column="2" Name="LabelBottomRight" HorizontalAlignment="Center" VerticalAlignment="Center">Superman</Label>
+    </Grid>
+</Window>
