@@ -1,3 +1,5 @@
+using System;
+using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 
@@ -10,11 +12,8 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 
-    private void Button_OnClick(object? sender, RoutedEventArgs e)
+    private void CheckBox_Clicked(object? sender, RoutedEventArgs e)
     {
-        if (sender == null) return;
-        
-        Button button = (Button)sender;
-        button.Content = "You clicked me!";
+        ButtonHello.IsVisible = CheckBoxHello.IsChecked ?? false;
     }
 }

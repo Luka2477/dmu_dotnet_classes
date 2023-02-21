@@ -2,10 +2,16 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="50"
         x:Class="task1.MainWindow"
         Title="task1">
-    <Grid>
-        <Button Name="Button" Click="Button_OnClick">Hello</Button>
+    <Grid ShowGridLines="True" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Button Grid.Column="0" Name="ButtonHello" Foreground="Green" IsVisible="False">Hello</Button>
+        <CheckBox Grid.Column="1" Name="CheckBoxHello" Click="CheckBox_Clicked">Show Button</CheckBox>
     </Grid>
 </Window>
