@@ -1,0 +1,32 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="task1.MainWindow"
+        Title="task1">
+    <Grid Name="MainGrid" ShowGridLines="True" RowDefinitions="45,45,45,45,45,45,45">
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+            <Label>Name: </Label>
+            <TextBox Text="{Binding Person.Name}"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
+            <Label>Weight: </Label>
+            <TextBox Text="{Binding Person.Weight}"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Horizontal">
+            <Label>Age: </Label>
+            <TextBox Text="{Binding Person.Age}"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal">
+            <Label>Score: </Label>
+            <TextBox Text="{Binding Person.Score}"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Grid.Column="0" Orientation="Horizontal">
+            <Label>Accepted: </Label>
+            <CheckBox IsChecked="{Binding Person.Accepted}"></CheckBox>
+        </StackPanel>
+        <Button Grid.Row="5" Grid.Column="0">Change person!</Button>
+        <Button Grid.Row="6" Grid.Column="0">Print Current Person to Console!</Button>
+    </Grid>
+</Window>
