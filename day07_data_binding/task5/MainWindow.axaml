@@ -14,6 +14,9 @@
             </ListBox.ItemTemplate>
         </ListBox>
         <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding #LbPersons.SelectedItem}"></TextBlock>
-        <Button Grid.Column="0" Grid.Row="1" Click="BtnAddPerson_OnClick">Add Person</Button>
+        <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Horizontal">
+            <Button Click="BtnAddPerson_OnClick">Add Person</Button>
+            <Button Click="BtnEditPerson_OnClick">Edit Person</Button>
+        </StackPanel>
     </Grid>
 </Window>

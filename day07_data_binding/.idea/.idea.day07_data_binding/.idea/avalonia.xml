@@ -8,7 +8,9 @@
         <entry key="task2/MainWindow.axaml" value="task2/task2.csproj" />
         <entry key="task3/MainWindow.axaml" value="task3/task3.csproj" />
         <entry key="task4/MainWindow.axaml" value="task4/task4.csproj" />
+        <entry key="task5/EditDialog.axaml" value="task5/task5.csproj" />
         <entry key="task5/MainWindow.axaml" value="task5/task5.csproj" />
+        <entry key="task5/Test.axaml" value="task5/task5.csproj" />
       </map>
     </option>
   </component>

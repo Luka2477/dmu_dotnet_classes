@@ -1,3 +1,4 @@
+using System;
 using System.Collections.ObjectModel;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
@@ -24,5 +25,17 @@ public partial class MainWindow : Window
     private void BtnAddPerson_OnClick(object? sender, RoutedEventArgs e)
     {
         _persons.Add(new PersonDataContext("New Person", 10.0, 10, 10.0, true));
+    }
+
+    private void BtnEditPerson_OnClick(object? sender, RoutedEventArgs e)
+    {
+        if (LbPersons.SelectedItem == null) return;
+
+        var selectedItem = (PersonDataContext)LbPersons.SelectedItem;
+        EditDialog dialog = new()
+        {
+            DataContext = selectedItem
+        };
+        dialog.ShowDialog(this);
     }
 }
