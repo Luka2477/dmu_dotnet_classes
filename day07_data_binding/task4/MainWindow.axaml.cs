@@ -14,9 +14,9 @@ public partial class MainWindow : Window
 
         _persons = new ObservableCollection<PersonDataContext>
         {
-            new PersonDataContext("Lukas", 80.5, 23, 99.9, true),
-            new PersonDataContext("Mads", 75.0, 26, 75.0, true),
-            new PersonDataContext("Mike", 90.0, 28, 50.0, false)
+            new("Lukas", 80.5, 23, 99.9, true),
+            new("Mads", 75.0, 26, 75.0, true),
+            new("Mike", 90.0, 28, 50.0, false)
         };
         LbPersons.DataContext = _persons;
     }
