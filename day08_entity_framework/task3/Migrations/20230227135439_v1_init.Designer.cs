@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using task2.DAL;
+using task3.DAL;
 
 #nullable disable
 
-namespace task2.Migrations
+namespace task3.Migrations
 {
     [DbContext(typeof(CarContext))]
     [Migration("20230227135439_v1_init")]

@@ -28,4 +28,9 @@ public partial class MainWindow : Window
         LbCars.Items = null;
         LbCars.Items = _context.Cars;
     }
+
+    private void LbCars_OnSelectionChanged(object? sender, SelectionChangedEventArgs e)
+    {
+        Console.WriteLine(LbCars.SelectedItem);
+    }
 }

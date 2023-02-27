@@ -5,8 +5,13 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="task3.MainWindow"
         Title="task3">
-    <Grid ShowGridLines="True" ColumnDefinitions="*,*">
-        <ListBox Grid.Column="0" Grid.Row="0" Name="LbCars">
+    <Grid ShowGridLines="True" ColumnDefinitions="*,*,*">
+        <ListBox Grid.Column="0" Grid.Row="0" Name="LbCars" SelectionChanged="LbCars_OnSelectionChanged">
+            <DataTemplate>
+                <TextBox Text="{Binding}"></TextBox>
+            </DataTemplate>
+        </ListBox>
+        <ListBox Grid.Column="0" Grid.Row="0" Name="LbOwners">
             <DataTemplate>
                 <TextBox Text="{Binding}"></TextBox>
             </DataTemplate>

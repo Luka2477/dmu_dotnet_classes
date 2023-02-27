@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace task3.Models;
 
@@ -9,6 +11,8 @@ public class Car
     public string Model { get; set; } = "";
     public int Wheels { get; set; }
     public int Year { get; set; }
+
+    public virtual ObservableCollection<Owner> Owners { get; } = new();
 
     public Car()
     {
