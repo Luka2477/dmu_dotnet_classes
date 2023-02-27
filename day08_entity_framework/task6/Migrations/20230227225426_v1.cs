@@ -62,32 +62,6 @@ namespace task6.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "StudentClasses",
-                columns: table => new
-                {
-                    ID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    StudentID = table.Column<int>(type: "int", nullable: false),
-                    ClassID = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_StudentClasses", x => x.ID);
-                    table.ForeignKey(
-                        name: "FK_StudentClasses_Classes_ClassID",
-                        column: x => x.ClassID,
-                        principalTable: "Classes",
-                        principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_StudentClasses_Students_StudentID",
-                        column: x => x.StudentID,
-                        principalTable: "Students",
-                        principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
             migrationBuilder.InsertData(
                 table: "Classes",
                 columns: new[] { "ID", "Title" },
@@ -108,34 +82,10 @@ namespace task6.Migrations
                     { 3, "Mike" }
                 });
 
-            migrationBuilder.InsertData(
-                table: "StudentClasses",
-                columns: new[] { "ID", "ClassID", "StudentID" },
-                values: new object[,]
-                {
-                    { 1, 1, 1 },
-                    { 2, 2, 1 },
-                    { 3, 1, 2 },
-                    { 4, 3, 2 },
-                    { 5, 1, 3 },
-                    { 6, 2, 3 },
-                    { 7, 3, 3 }
-                });
-
             migrationBuilder.CreateIndex(
                 name: "IX_ClassStudent_StudentsID",
                 table: "ClassStudent",
                 column: "StudentsID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_StudentClasses_ClassID",
-                table: "StudentClasses",
-                column: "ClassID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_StudentClasses_StudentID",
-                table: "StudentClasses",
-                column: "StudentID");
         }
 
         /// <inheritdoc />
@@ -143,9 +93,6 @@ namespace task6.Migrations
         {
             migrationBuilder.DropTable(
                 name: "ClassStudent");
-
-            migrationBuilder.DropTable(
-                name: "StudentClasses");
 
             migrationBuilder.DropTable(
                 name: "Classes");

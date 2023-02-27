@@ -11,7 +11,7 @@ using task6.DAL;
 namespace task6.Migrations
 {
     [DbContext(typeof(SchoolContext))]
-    [Migration("20230227222744_v1")]
+    [Migration("20230227225426_v1")]
     partial class v1
     {
         /// <inheritdoc />
@@ -107,73 +107,6 @@ namespace task6.Migrations
                         });
                 });
 
-            modelBuilder.Entity("task6.Models.StudentClass", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
-
-                    b.Property<int>("ClassID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("StudentID")
-                        .HasColumnType("int");
-
-                    b.HasKey("ID");
-
-                    b.HasIndex("ClassID");
-
-                    b.HasIndex("StudentID");
-
-                    b.ToTable("StudentClasses");
-
-                    b.HasData(
-                        new
-                        {
-                            ID = 1,
-                            ClassID = 1,
-                            StudentID = 1
-                        },
-                        new
-                        {
-                            ID = 2,
-                            ClassID = 2,
-                            StudentID = 1
-                        },
-                        new
-                        {
-                            ID = 3,
-                            ClassID = 1,
-                            StudentID = 2
-                        },
-                        new
-                        {
-                            ID = 4,
-                            ClassID = 3,
-                            StudentID = 2
-                        },
-                        new
-                        {
-                            ID = 5,
-                            ClassID = 1,
-                            StudentID = 3
-                        },
-                        new
-                        {
-                            ID = 6,
-                            ClassID = 2,
-                            StudentID = 3
-                        },
-                        new
-                        {
-                            ID = 7,
-                            ClassID = 3,
-                            StudentID = 3
-                        });
-                });
-
             modelBuilder.Entity("ClassStudent", b =>
                 {
                     b.HasOne("task6.Models.Class", null)
@@ -187,25 +120,6 @@ namespace task6.Migrations
                         .HasForeignKey("StudentsID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("task6.Models.StudentClass", b =>
-                {
-                    b.HasOne("task6.Models.Class", "Class")
-                        .WithMany()
-                        .HasForeignKey("ClassID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("task6.Models.Student", "Student")
-                        .WithMany()
-                        .HasForeignKey("StudentID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Class");
-
-                    b.Navigation("Student");
                 });
 #pragma warning restore 612, 618
         }

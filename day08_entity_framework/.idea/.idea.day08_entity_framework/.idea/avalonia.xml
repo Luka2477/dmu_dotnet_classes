@@ -9,6 +9,8 @@
         <entry key="task3/App.axaml" value="task3/task3.csproj" />
         <entry key="task3/MainWindow.axaml" value="task3/task3.csproj" />
         <entry key="task4/MainWindow.axaml" value="task4/task4.csproj" />
+        <entry key="task6/App.axaml" value="task6/task6.csproj" />
+        <entry key="task6/MainWindow.axaml" value="task6/task6.csproj" />
         <entry key="test/MainWindow.axaml" value="test/test.csproj" />
       </map>
     </option>
