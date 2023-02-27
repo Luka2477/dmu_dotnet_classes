@@ -25,19 +25,19 @@ public class SchoolContext : DbContext
             new { ID = 2, Name = "Mads" },
             new { ID = 3, Name = "Mike" }
         );
-        modelBuilder.Entity<Student>().HasData(
+        modelBuilder.Entity<Class>().HasData(
             new { ID = 1, Title = "Maths" },
             new { ID = 2, Title = "Physics" },
             new { ID = 3, Title = "Danish" }
         );
         modelBuilder.Entity<StudentClass>().HasData(
-            new { StudentID = 1, ClassID = 1 },
-            new { StudentID = 1, ClassID = 2 },
-            new { StudentID = 2, ClassID = 1 },
-            new { StudentID = 2, ClassID = 3 },
-            new { StudentID = 3, ClassID = 1 },
-            new { StudentID = 3, ClassID = 2 },
-            new { StudentID = 3, ClassID = 3 }
+            new { ID = 1, StudentID = 1, ClassID = 1 },
+            new { ID = 2, StudentID = 1, ClassID = 2 },
+            new { ID = 3, StudentID = 2, ClassID = 1 },
+            new { ID = 4, StudentID = 2, ClassID = 3 },
+            new { ID = 5, StudentID = 3, ClassID = 1 },
+            new { ID = 6, StudentID = 3, ClassID = 2 },
+            new { ID = 7, StudentID = 3, ClassID = 3 }
         );
     }
 }
