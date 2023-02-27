@@ -12,7 +12,7 @@ public class Car
     public int Wheels { get; set; }
     public int Year { get; set; }
 
-    public virtual ObservableCollection<Owner> Owners { get; } = new();
+    public virtual ObservableCollection<Owner> Owners { get; }
 
     public Car()
     {

@@ -41,36 +41,24 @@ public class CarContext : DbContext
             ID = 1,
             Name = "Lukas Knudsen",
             Cpr = 1902005109,
-            Car = car1
+            CarID = 1
         };
-        car1.Owners.Add(owner11);
         Owner owner12 = new()
         {
             ID = 2,
             Name = "Nicolai Knudsen",
             Cpr = 1122334455,
-            Car = car1
+            CarID = 1
         };
-        car1.Owners.Add(owner12);
         Owner owner21 = new()
         {
             ID = 3,
             Name = "Berta Vazquez de Zubiaurre",
             Cpr = 12345678,
-            Car = car2
+            CarID = 2
         };
-        car2.Owners.Add(owner21);
 
-        modelBuilder.Entity<Car>().HasData(new Car[]
-        {
-            car1,
-            car2
-        });
-        modelBuilder.Entity<Owner>().HasData(new Owner[]
-        {
-            owner11,
-            owner12,
-            owner21
-        });
+        modelBuilder.Entity<Car>().HasData(car1, car2);
+        modelBuilder.Entity<Owner>().HasData(owner11, owner12, owner21);
     }
 }
