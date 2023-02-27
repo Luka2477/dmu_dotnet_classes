@@ -5,6 +5,7 @@
       <map>
         <entry key="task1/App.axaml" value="task1/task1.csproj" />
         <entry key="task1/MainWindow.axaml" value="task1/task1.csproj" />
+        <entry key="task2/MainWindow.axaml" value="task2/task2.csproj" />
       </map>
     </option>
   </component>

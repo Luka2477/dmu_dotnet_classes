@@ -5,5 +5,12 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="task2.MainWindow"
         Title="task2">
-    Welcome to Avalonia!
+    <Grid ShowGridLines="True" ColumnDefinitions="*,*">
+        <ListBox Grid.Column="0" Grid.Row="0" Name="LbCars">
+            <DataTemplate>
+                <TextBox Text="{Binding}"></TextBox>
+            </DataTemplate>
+        </ListBox>
+        <Button Grid.Column="1" Grid.Row="0" Click="Button_OnClick">Add new car</Button>
+    </Grid>
 </Window>
