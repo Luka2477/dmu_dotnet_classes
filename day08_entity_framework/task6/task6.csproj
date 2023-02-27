@@ -27,4 +27,10 @@
         </PackageReference>
         <PackageReference Include="XamlNameReferenceGenerator" Version="1.5.1" />
     </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="DAL" />
+      <Folder Include="Migrations" />
+      <Folder Include="Models" />
+    </ItemGroup>
 </Project>
