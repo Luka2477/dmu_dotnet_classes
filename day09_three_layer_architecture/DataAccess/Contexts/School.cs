@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Course = DataAccess.Mappers.Course;
 
 namespace DataAccess.Contexts;
 
@@ -14,6 +15,9 @@ internal sealed class School : DbContext
         string connected = !Database.CanConnect() ? "not " : string.Empty;
         Console.WriteLine($"Database {connected}connected");
     }
+    
+    public DbSet<Models.Student> Students { get; set; }
+    public DbSet<Models.Course> Courses { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

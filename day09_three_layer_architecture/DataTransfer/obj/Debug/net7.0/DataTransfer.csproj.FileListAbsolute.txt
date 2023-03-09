@@ -1,0 +1,14 @@
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/bin/Debug/net7.0/DataTransfer.deps.json
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/bin/Debug/net7.0/DataTransfer.dll
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/bin/Debug/net7.0/DataTransfer.pdb
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/obj/Debug/net7.0/DataTransfer.csproj.AssemblyReference.cache
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/obj/Debug/net7.0/DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/obj/Debug/net7.0/DataTransfer.AssemblyInfoInputs.cache
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/obj/Debug/net7.0/DataTransfer.AssemblyInfo.cs
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/obj/Debug/net7.0/DataTransfer.csproj.CoreCompileInputs.cache
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/obj/Debug/net7.0/DataTransfer.dll
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/obj/Debug/net7.0/refint/DataTransfer.dll
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/obj/Debug/net7.0/DataTransfer.pdb
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/obj/Debug/net7.0/ref/DataTransfer.dll
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/bin/Debug/net7.0/DataTransfer.runtimeconfig.json
+/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/obj/Debug/net7.0/DataTransfer.genruntimeconfig.cache

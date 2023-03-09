@@ -8,8 +8,12 @@ internal class Student
     public ICollection<Course> Courses { get; set; }
     public List<Enrollment> Enrollments { get; set; }
 
-    public override string ToString()
+    public Student() { }
+
+    public Student(int studentID, string name, ICollection<Course> courses)
     {
-        return $"{StudentID}: {Name}";
+        StudentID = studentID;
+        Name = name ?? throw new ArgumentNullException(nameof(name));
+        Courses = courses;
     }
 }
