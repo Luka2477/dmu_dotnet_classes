@@ -2,21 +2,14 @@ namespace DataAccess.Models;
 
 internal class Student
 {
-    private ICollection<Enrollment>? _enrollments;
-
-    public int ID { get; set; }
+    public int StudentID { get; set; }
     public string Name { get; set; }
+    
+    public ICollection<Course> Courses { get; set; }
+    public List<Enrollment> Enrollments { get; set; }
 
-    public virtual ICollection<Enrollment>? Enrollments
+    public override string ToString()
     {
-        get => _enrollments;
-        set => _enrollments = value;
-    }
-
-    public Student(int id, string name, ICollection<Enrollment>? enrollments = null)
-    {
-        ID = id;
-        Name = name ?? throw new ArgumentNullException(nameof(name));
-        _enrollments = enrollments;
+        return $"{StudentID}: {Name}";
     }
 }

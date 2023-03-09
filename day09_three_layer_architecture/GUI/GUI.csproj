@@ -23,7 +23,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj" />
-      <ProjectReference Include="..\DataTransfer\DataTransfer.csproj" />
+      <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">
+        <PrivateAssets>all</PrivateAssets>
+      </ProjectReference>
+      <ProjectReference Include="..\DataTransfer\DataTransfer.csproj">
+        <PrivateAssets>all</PrivateAssets>
+      </ProjectReference>
     </ItemGroup>
 </Project>

@@ -27,7 +27,8 @@
             "targetAlias": "net7.0",
             "projectReferences": {
               "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/DataTransfer.csproj": {
-                "projectPath": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/DataTransfer.csproj"
+                "projectPath": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/DataTransfer.csproj",
+                "privateAssets": "all"
               }
             }
           }

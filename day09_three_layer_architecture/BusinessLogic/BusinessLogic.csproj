@@ -10,7 +10,9 @@
       <ProjectReference Include="..\DataAccess\DataAccess.csproj">
         <PrivateAssets>all</PrivateAssets>
       </ProjectReference>
-      <ProjectReference Include="..\DataTransfer\DataTransfer.csproj" />
+      <ProjectReference Include="..\DataTransfer\DataTransfer.csproj">
+        <PrivateAssets>all</PrivateAssets>
+      </ProjectReference>
     </ItemGroup>
 
 </Project>
