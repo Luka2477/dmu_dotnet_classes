@@ -4,6 +4,7 @@
     <option name="projectPerEditor">
       <map>
         <entry key="BusinessLogic/MainWindow.axaml" value="BusinessLogic/BusinessLogic.csproj" />
+        <entry key="GUI/MainWindow.axaml" value="GUI/GUI.csproj" />
       </map>
     </option>
   </component>

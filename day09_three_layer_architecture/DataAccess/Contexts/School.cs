@@ -2,11 +2,22 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Contexts;
 
-public class School : DbContext
+internal class School : DbContext
 {
     public DbSet<Models.Student> Students { get; set; }
     public DbSet<Models.Course> Courses { get; set; }
     public DbSet<Models.Enrollment> Enrollments { get; set; }
+
+    public School()
+    {
+        if (Database.EnsureCreated())
+        {
+            Console.WriteLine("Database created");
+        }
+
+        string connected = Database.CanConnect() ? "not " : string.Empty;
+        Console.WriteLine($"Database {connected}connected");
+    }
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
