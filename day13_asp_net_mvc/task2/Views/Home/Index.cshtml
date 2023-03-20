@@ -1,0 +1,45 @@
+@using Microsoft.AspNetCore.Html
+@using task2.Models
+@{
+    Layout = null;
+}
+
+@{
+    void RenderPerson(Person p)
+    {
+        <tr>
+            <td>@p.FirstName</td>
+            <td>@p.LastName</td>
+            <td>@p.Address</td>
+            <td>@p.Zip</td>
+            <td>@p.City</td>
+            <td>@p.PhoneNumber</td>
+        </tr>
+    }
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Persons</title>
+</head>
+<body>
+<div>
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Address</th>
+            <th>Zip code</th>
+            <th>City</th>
+            <th>Phone number</th>
+        </tr>
+        @foreach (Person p in ViewBag.Persons)
+        {
+            RenderPerson(p);
+        }
+    </table>
+</div>
+</body>
+</html>
