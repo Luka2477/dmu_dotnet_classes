@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/warmup_task1.props" />
+</Project>

@@ -1,0 +1,21 @@
+@model dynamic
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Index</title>
+</head>
+<body>
+<div>
+    Name: @ViewBag.Name
+    <br />
+    Age: @ViewBag.Age
+    <br />
+    Birthday: @ViewBag.Birthday.ToString("D")
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+@model dynamic;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Products</title>
+</head>
+<body>
+<div>
+    <h1>@ViewBag.Glass.Name</h1>
+    <h3>@String.Format("{0:00.00}", ViewBag.Glass.Price)</h3>
+    <img src="images\@ViewBag.Glass.ImageUrl" alt="@ViewBag.Glass.Name"/>
+    <h6>Made by @ViewBag.Glass.Manufacturer</h6>
+
+    <h1>@ViewBag.Bin.Name</h1>
+    <h3>@String.Format("{0:00.00}", ViewBag.Bin.Price)</h3>
+    <img src="images\@ViewBag.Bin.ImageUrl" alt="@ViewBag.Bin.Name"/>
+    <h6>Made by @ViewBag.Bin.Manufacturer</h6>
+
+    <h1>@ViewBag.Knife.Name</h1>
+    <h3>@String.Format("{0:00.00}", ViewBag.Knife.Price)</h3>
+    <img src="images\@ViewBag.Knife.ImageUrl" alt="@ViewBag.Knife.Name"/>
+    <h6>Made by @ViewBag.Knife.Manufacturer</h6>
+</div>
+</body>
+</html>

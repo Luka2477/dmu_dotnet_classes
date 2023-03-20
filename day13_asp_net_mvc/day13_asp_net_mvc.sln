@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task1", "task1\task1.csproj", "{7178187B-48A9-4229-AB59-623CFDDAA51F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "warmup_task1", "warmup_task1\warmup_task1.csproj", "{AA6329DF-3815-4BC0-B684-912F0B127D8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7178187B-48A9-4229-AB59-623CFDDAA51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7178187B-48A9-4229-AB59-623CFDDAA51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7178187B-48A9-4229-AB59-623CFDDAA51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7178187B-48A9-4229-AB59-623CFDDAA51F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6329DF-3815-4BC0-B684-912F0B127D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6329DF-3815-4BC0-B684-912F0B127D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6329DF-3815-4BC0-B684-912F0B127D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6329DF-3815-4BC0-B684-912F0B127D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

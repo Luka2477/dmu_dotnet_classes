@@ -1,0 +1,38 @@
+@model dynamic
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Time Calculator</title>
+</head>
+<body>
+<div>
+    @if (ViewBag.TotalSeconds == null)
+    {
+        <h1>Time Calculator!</h1>
+        @using (Html.BeginForm())
+        {
+            @Html.Label("Hours")
+            @Html.TextBox("Hours")
+            <br />
+            @Html.Label("Minutes")
+            @Html.TextBox("Minutes")
+            <br />
+            @Html.Label("Seconds")
+            @Html.TextBox("Seconds")
+            <br />
+            <input type="submit" value="Calculate Time" />
+        }
+    }
+    else
+    {
+        <h1>Time Calculator Results!</h1>
+        <p>@ViewBag.Hours hours + @ViewBag.Minutes minutes + @ViewBag.Seconds seconds = @ViewBag.TotalSeconds seconds in total</p>
+    }
+</div>
+</body>
+</html>
