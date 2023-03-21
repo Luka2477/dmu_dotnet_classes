@@ -1,0 +1,76 @@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Music Store</title>
+    <style>
+        .flex {
+            display: flex;
+            gap: 10px;
+        }
+        .flex-hor {
+            flex-direction: row;
+        }
+        .text {
+            line-height: 1px;
+        }
+        .section > img {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="flex flex-hor">
+    <div class="section">
+        <div class="text">
+            <p>
+                <b>Title: </b>@ViewBag.Book.Title
+            </p>
+            <p>
+                <b>Author: </b>@ViewBag.Book.Author
+            </p>
+            <p>
+                <b>Price: </b>@ViewBag.Book.Price
+            </p>
+            <p><b>Publisher: </b>@ViewBag.Book.Publisher (@ViewBag.Book.Published)</p>
+            <p>
+                <b>ISBN: </b>@ViewBag.Book.ISBN
+            </p>
+        </div>
+        <img src="images/@ViewBag.Book.ImageUrl" alt="@ViewBag.Book.Title" height="500" />
+    </div>
+    <div class="section">
+        <div class="text">
+            <p>
+                <b>Album: </b>@ViewBag.MusicCD.Title
+            </p>
+            <p>
+                <b>Artist: </b>@ViewBag.MusicCD.Artist
+            </p>
+            <p>
+                <b>Price: </b>@ViewBag.MusicCD.Price
+            </p>
+            <p><b>Publisher: </b>@ViewBag.MusicCD.Publisher (@ViewBag.MusicCD.Published)</p>
+        </div>
+        <img src="images/@ViewBag.MusicCD.ImageUrl" alt="@ViewBag.MusicCD.Title" height="500" />
+    </div>
+    <div class="section">
+        <div class="text">
+            <p>
+                <b>Tracks:</b>
+            </p>
+        </div>
+        <ol>
+            @foreach (string track in ViewBag.MusicCD.Tracks)
+            {
+                <li>@track</li>
+            }
+        </ol>
+    </div>
+</div>
+</body>
+</html>
