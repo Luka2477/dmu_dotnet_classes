@@ -1,0 +1,97 @@
+@using task4.Models
+@{
+    Layout = null;
+}
+@{
+    void RenderBook(Book b)
+    {
+        <div class="section">
+            <div class="text">
+                <p>
+                    <b>Title: </b>@b.Title
+                </p>
+                <p>
+                    <b>Author: </b>@b.Author
+                </p>
+                <p>
+                    <b>Price: </b>@b.Price
+                </p>
+                <p><b>Publisher: </b>@b.Publisher (@b.Published)</p>
+                <p>
+                    <b>ISBN: </b>@b.ISBN
+                </p>
+            </div>
+            <img src="images/@b.ImageUrl" alt="@b.Title" height="300" />
+        </div>
+    }
+
+    void RenderMusicCd(MusicCD cd)
+    {
+        <div class="section">
+            <div class="text">
+                <p>
+                    <b>Album: </b>@cd.Title
+                </p>
+                <p>
+                    <b>Artist: </b>@cd.Artist
+                </p>
+                <p>
+                    <b>Price: </b>@cd.Price
+                </p>
+                <p><b>Publisher: </b>@cd.Publisher (@cd.Published)</p>
+            </div>
+            <img src="images/@cd.ImageUrl" alt="@cd.Title" height="300" />
+        </div>
+        <div class="section">
+            <div class="text">
+                <p>
+                    <b>Tracks:</b>
+                </p>
+            </div>
+            <ol>
+                @foreach (string track in cd.Tracks)
+                {
+                    <li>@track</li>
+                }
+            </ol>
+        </div>
+    }
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Music Store</title>
+    <style>
+        .flex {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 50px;
+        }
+        .flex-hor {
+            flex-direction: row;
+        }
+        .text {
+            line-height: 1px;
+        }
+        .section > img {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="flex flex-hor">
+    @{
+        RenderBook(ViewBag.Book1);
+        RenderMusicCd(ViewBag.MusicCD1);
+    }
+</div>
+<div class="flex flex-hor">
+    @{
+        RenderBook(ViewBag.Book2);
+        RenderMusicCd(ViewBag.MusicCD2);
+    }
+</div>
+</body>
+</html>
