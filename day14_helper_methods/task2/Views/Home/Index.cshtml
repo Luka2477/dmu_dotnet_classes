@@ -1,6 +1,7 @@
-@model dynamic
+@model task2.Models.ParkingTicketMachine;
 
 @{
+    ViewBag.Title = "Parking Ticket Machine";
     Layout = null;
 }
 
@@ -8,11 +9,39 @@
 
 <html lang="en">
 <head>
-    <title>Home</title>
+    <title>@ViewBag.Title</title>
 </head>
 <body>
-<div>
-      
-</div>
+<main>
+    <h2>@ViewBag.Title</h2>
+    
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+        @Html.HiddenFor(ptm => ptm.AmountInserted)
+
+        <div>
+            <label>Time now: </label><b>@ViewData.Model.TimeNow.ToString("HH:mm:ss")</b>
+            <br/>
+            <label>Paid until: </label><b>@ViewData.Model.PaidUntil.ToString("HH:mm:ss")</b>
+            <br/>
+            <br/>
+            <label>Display info: </label><b>@ViewData.Model.AmountInserted kr inserted</b>
+        </div>
+        <h3>Coins Insert</h3>
+        <div>
+            <button type="submit" name="coin" value="1">1 kr</button>
+            <button type="submit" name="coin" value="2">2 kr</button>
+            <button type="submit" name="coin" value="5">5 kr</button>
+            <button type="submit" name="coin" value="10">10 kr</button>
+            <button type="submit" name="coin" value="20">20 kr</button>
+        </div>
+        <br/>
+        <br/>
+        <div>
+            <button type="submit" name="action" value="Confirm">Confirm</button>
+            <button type="submit" name="action" value="Cancel">Cancel</button>
+        </div>
+    }
+</main>
 </body>
 </html>

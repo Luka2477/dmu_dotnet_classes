@@ -1,0 +1,22 @@
+@model task2.Models.ParkingTicketMachine
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Confirmed</title>
+</head>
+<body>
+<main>
+    <h2>Parking Ticket</h2>
+    <label>Ticket issued: </label><b>@ViewData.Model.TimeNow.ToString("HH:mm:ss")</b>
+    <br/>
+    <br/>
+    <label>Parking paid until: </label><b>@ViewData.Model.PaidUntil.ToString("HH:mm:ss")</b>
+</main>
+</body>
+</html>
