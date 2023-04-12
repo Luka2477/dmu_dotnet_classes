@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ojez2Kh/bWn5bSXMjKBzlyrby+AojuTGrZtY9BAaFYc=",
+  "Hash": "fHxx9daF1SrcG2k2HpEThBKOmNqrcp95SPoq5UCW5dc=",
   "Source": "task3",
   "BasePath": "_content/task3",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot/images/book_0060844094.jpg"
     },
     {
+      "Identity": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day13_asp_net_mvc/task3/wwwroot/images/book_0316547832.jpg",
+      "SourceId": "task3",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day13_asp_net_mvc/task3/wwwroot/",
+      "BasePath": "_content/task3",
+      "RelativePath": "images/book_0316547832.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/book_0316547832.jpg"
+    },
+    {
       "Identity": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day13_asp_net_mvc/task3/wwwroot/images/cd_abbey_road_remastered.jpg",
       "SourceId": "task3",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/cd_abbey_road_remastered.jpg"
+    },
+    {
+      "Identity": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day13_asp_net_mvc/task3/wwwroot/images/cd_revolver_remastered.jpg",
+      "SourceId": "task3",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day13_asp_net_mvc/task3/wwwroot/",
+      "BasePath": "_content/task3",
+      "RelativePath": "images/cd_revolver_remastered.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/cd_revolver_remastered.jpg"
     },
     {
       "Identity": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day13_asp_net_mvc/task3/wwwroot/js/site.js",

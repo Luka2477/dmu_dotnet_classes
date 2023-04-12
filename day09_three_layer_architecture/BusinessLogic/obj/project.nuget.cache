@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QQziAZzq1e1ba5rdpFdb3hVQ5lnSdkmR58vxE8t/KDNZRkg+FdqOe0ZlRmpoaahtvqEn/N1hlyAfQL4WkmPkrg==",
+  "dgSpecHash": "51JO1CLgGHV55bJ0L8TUq4pA1ZzlpRZ5FZRUeumAISYv+ycnmB0TND/etULeYlUnq2fy1toJeqDRdg8BH1AC/A==",
   "success": true,
   "projectFilePath": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/BusinessLogic/BusinessLogic.csproj",
   "expectedPackageFiles": [

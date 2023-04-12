@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets/images/book_0060844094.jpg"
     },
     {
+      "Id": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day13_asp_net_mvc/task3/wwwroot/images/book_0316547832.jpg",
+      "PackagePath": "staticwebassets/images/book_0316547832.jpg"
+    },
+    {
       "Id": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day13_asp_net_mvc/task3/wwwroot/images/cd_abbey_road_remastered.jpg",
       "PackagePath": "staticwebassets/images/cd_abbey_road_remastered.jpg"
+    },
+    {
+      "Id": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day13_asp_net_mvc/task3/wwwroot/images/cd_revolver_remastered.jpg",
+      "PackagePath": "staticwebassets/images/cd_revolver_remastered.jpg"
     },
     {
       "Id": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day13_asp_net_mvc/task3/wwwroot/js/site.js",

@@ -1,25 +1,29 @@
-﻿<Properties StartupConfiguration="{0FEAC71B-2864-42A0-B937-BECF11275B70}|Default">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{86B7CF04-5F73-44E7-9384-79E122F07CE4}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.GUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Contexts/School.cs">
+    <Files>
+      <File FileName="DataAccess/Contexts/School.cs" Line="21" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="day09_three_layer_architecture" expanded="True">
             <Node name="BusinessLogic" expanded="True" />
-            <Node name="GUI" expanded="True">
-              <Node name="MainWindow.axaml" expanded="True">
-                <Node name="MainWindow.axaml.cs" selected="True" />
+            <Node name="DataAccess" expanded="True">
+              <Node name="Contexts" expanded="True">
+                <Node name="School.cs" selected="True" />
               </Node>
             </Node>
+            <Node name="DataTransfer" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.GUI PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
 </Properties>

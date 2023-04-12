@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DnvqtiIE+8UUSblmQo0/5DhXPpta9WdImHwjUBy64zNMxbxw+9ej2IRz2UGMp1XjQ44/+RCXkMqzQl7XX1zmww==",
+  "dgSpecHash": "KflH7HweVmj37AaNGZU/9QVgxwn1hNSjQZruS9bp2FjmR0mE9L6dVL5aqP5vv6uizSR7RCzG31ObY5r5Ewx18Q==",
   "success": true,
   "projectFilePath": "/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day09_three_layer_architecture/DataTransfer/DataTransfer.csproj",
   "expectedPackageFiles": [

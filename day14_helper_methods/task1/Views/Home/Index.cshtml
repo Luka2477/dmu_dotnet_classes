@@ -1,0 +1,42 @@
+@model dynamic
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Countries</title>
+</head>
+<body>
+<div>
+    <h3>Countries</h3>
+    @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+    {
+        @Html.DropDownList("countryCode", ViewBag.Countries, null, null)
+        <input type="submit" value="Show country code">
+    }
+    <br>
+    @if (ViewBag.CountryCode != null)
+    {
+        <b>Country code: </b>
+        @ViewBag.CountryCode
+    }
+    <br>
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+        <label>Country: </label>@Html.TextBox("country")
+        <br>
+        <label>Code: </label>@Html.TextBox("code")
+        @if (ViewBag.CountryCode != null)
+        {
+            <input type="hidden" name="countryCode" value=@ViewBag.CountryCode />
+        }
+        <br>
+        <input type="submit" value="Add" />
+    }
+</div>
+</body>
+</html>
