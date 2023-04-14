@@ -1,0 +1,7 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <h1>Person @(ViewBag.Id != null ? ViewBag.Id : "") @(ViewBag.Name != null ? "with name " + ViewBag.Name : "")</h1>
+</div>
