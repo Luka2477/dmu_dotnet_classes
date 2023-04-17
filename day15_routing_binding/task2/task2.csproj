@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Privacy.cshtml" />
+      <_ContentIncludedByDefault Remove="Person\Find.cshtml" />
+      <_ContentIncludedByDefault Remove="Person\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Person\Privacy.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Views\Person\Find.cshtml" />
+      <AdditionalFiles Include="Views\Person\Index.cshtml" />
+      <AdditionalFiles Include="Views\Person\Privacy.cshtml" />
+    </ItemGroup>
+
+</Project>

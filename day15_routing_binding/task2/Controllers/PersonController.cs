@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using task1.Models;
-using task1.ViewModels;
+using task2.Models;
+using task2.ViewModels;
 
-namespace task1.Controllers;
+namespace task2.Controllers;
 
 public class PersonController : Controller
 {
@@ -27,6 +27,19 @@ public class PersonController : Controller
     {
         ViewBag.FirstName = firstName;
         ViewBag.LastName = lastName;
+        return View();
+    }
+    
+    [HttpGet]
+    public IActionResult Create()
+    {
+        return View(new PersonModel(new PersonModel.IName { First = "Lukas", Last = "Knudsen"}, 23));
+    }
+
+    [HttpPost]
+    public IActionResult Create(PersonModel person)
+    {
+        Console.WriteLine(person);
         return View();
     }
 

@@ -1,9 +1,11 @@
-namespace task1.Models;
+namespace task2.Models;
 
 public class PersonModel
 {
-    public IName Name;
-    public int Age;
+    public IName Name { get; set; }
+    public int Age { get; set; }
+
+    public PersonModel() { }
 
     public PersonModel(IName name, int age)
     {
@@ -13,7 +15,7 @@ public class PersonModel
 
     public class IName
     {
-        public string First;
-        public string Last;
+        public string First { get; set; }
+        public string Last { get; set; }
     }
 }
