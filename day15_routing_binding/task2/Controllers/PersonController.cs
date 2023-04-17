@@ -29,18 +29,45 @@ public class PersonController : Controller
         ViewBag.LastName = lastName;
         return View();
     }
-    
+
     [HttpGet]
     public IActionResult Create()
     {
-        return View(new PersonModel(new PersonModel.IName { First = "Lukas", Last = "Knudsen"}, 23));
+        return View();
     }
 
     [HttpPost]
-    public IActionResult Create(PersonModel person)
+    public IActionResult CreateCollection(IFormCollection formData)
     {
-        Console.WriteLine(person);
-        return View();
+        return View("Created",
+            new PersonModel(new PersonModel.IName
+                {
+                    First = formData["Name.First"],
+                    Last = formData["Name.Last"]
+                },
+                int.Parse(formData["Age"])
+            )
+        );
+    }
+
+    [HttpPost]
+    public IActionResult CreateSimpleTypes(PersonModel.IName Name, int Age)
+    {
+        return View("Created",
+            new PersonModel(new PersonModel.IName
+                {
+                    First = Name.First,
+                    Last = Name.Last
+                },
+                Age
+            )
+        );
+    }
+
+    [HttpPost]
+    public IActionResult CreateModel(PersonModel person)
+    {
+        return View("Created", person);
     }
 
     public IActionResult Privacy()

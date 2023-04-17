@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day15_routing_binding/task2/Views/Person/Created.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0NyZWF0ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/lukasknudsen/Documents/dmu/dotnet/dmu_dotnet_classes/day15_routing_binding/task2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

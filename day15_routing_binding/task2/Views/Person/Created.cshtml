@@ -1,0 +1,12 @@
+@model PersonModel
+
+@{
+    ViewData["Title"] = "New Person";
+}
+
+<h2>New Person</h2>
+<ul>
+    <li>First name: @ViewData.Model.Name.First</li>
+    <li>Last name:  @ViewData.Model.Name.Last</li>
+    <li>Age:        @ViewData.Model.Age</li>
+</ul>

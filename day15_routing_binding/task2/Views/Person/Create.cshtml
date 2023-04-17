@@ -4,18 +4,49 @@
     ViewData["Title"] = "Create Person";
 }
 
-<div>
-    @using (Html.BeginForm("Create", "Person", HttpMethod.Post))
-    {
-        @Html.LabelFor(p => p.Name.First)
-        @Html.EditorFor(p => p.Name.First)
-        <br/>
-        @Html.LabelFor(p => p.Name.Last)
-        @Html.EditorFor(p => p.Name.Last)
-        <br/>
-        @Html.LabelFor(p => p.Age)
-        @Html.EditorFor(p => p.Age)
-        <br/>
-        <button type="submit">Create</button>
-    }
-</div>
+<h2>Form Collection</h2>
+@using (Html.BeginForm("CreateCollection", "Person", HttpMethod.Post))
+{
+    @Html.LabelFor(p => p.Name.First)
+    @Html.EditorFor(p => p.Name.First)
+    <br/>
+    @Html.LabelFor(p => p.Name.Last)
+    @Html.EditorFor(p => p.Name.Last)
+    <br/>
+    @Html.LabelFor(p => p.Age)
+    @Html.EditorFor(p => p.Age)
+    <br/>
+    <button type="submit">Create</button>
+}
+<br/>
+<br/>
+<h2>Simple Types</h2>
+@using (Html.BeginForm("CreateSimpleTypes", "Person", HttpMethod.Post))
+{
+    @Html.LabelFor(p => p.Name.First)
+    @Html.EditorFor(p => p.Name.First)
+    <br/>
+    @Html.LabelFor(p => p.Name.Last)
+    @Html.EditorFor(p => p.Name.Last)
+    <br/>
+    @Html.LabelFor(p => p.Age)
+    @Html.EditorFor(p => p.Age)
+    <br/>
+    <button type="submit">Create</button>
+}
+<br/>
+<br/>
+<h2>Model</h2>
+@using (Html.BeginForm("CreateModel", "Person", HttpMethod.Post))
+{
+    @Html.LabelFor(p => p.Name.First)
+    @Html.EditorFor(p => p.Name.First)
+    <br/>
+    @Html.LabelFor(p => p.Name.Last)
+    @Html.EditorFor(p => p.Name.Last)
+    <br/>
+    @Html.LabelFor(p => p.Age)
+    @Html.EditorFor(p => p.Age)
+    <br/>
+    <button type="submit">Create</button>
+}
