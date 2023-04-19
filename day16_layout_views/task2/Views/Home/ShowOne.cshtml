@@ -1,0 +1,8 @@
+@model PersonModel
+
+@{
+    ViewData["Title"] = "One person";
+}
+
+<h2>One person</h2>
+@await Component.InvokeAsync("OnePerson", Model)

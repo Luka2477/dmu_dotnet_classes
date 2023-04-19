@@ -1,0 +1,13 @@
+@model IEnumerable<PersonModel>
+
+@{
+    ViewData["Title"] = "All Persons";
+}
+
+<h2>All persons</h2>
+<ul>
+    @foreach (PersonModel p in Model)
+    {
+        <li>@await Component.InvokeAsync("OnePerson", p)</li>
+    }
+</ul>
